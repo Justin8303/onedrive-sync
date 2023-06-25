@@ -3,11 +3,6 @@ name: default
 type: docker
 
 steps:
-  - name: install deps
-    image: cdrx/pyinstaller-linux:python3
-    commands:
-    - pip3 install -r requirements.txt
-
   - name: build exe
     image: cdrx/pyinstaller-linux:python3
     commands:
