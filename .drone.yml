@@ -2,6 +2,9 @@ kind: pipeline
 name: default
 type: docker
 
+workspace:
+  path: /src
+
 steps:
   - name: build exe
     image: cdrx/pyinstaller-linux:python3
