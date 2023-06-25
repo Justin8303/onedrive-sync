@@ -8,8 +8,6 @@ workspace:
 steps:
   - name: build exe
     image: cdrx/pyinstaller-linux:python3
-    commands:
-    - pyinstaller -F --onefile --noconsole main.py
 
   - name: upload release
     image: plugins/github-release
