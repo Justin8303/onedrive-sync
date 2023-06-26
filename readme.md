@@ -1,6 +1,5 @@
 # OneDrive-Sync
 
-## When to use?
 If you have a drive with you, that you want to sync with any directory on your computer (e.g. OneDrive) and you need a backup or an offline version, this tool is for you.
 
 # Installation
