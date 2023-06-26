@@ -31,6 +31,11 @@ FFS Location is probably: `C:\PROGRA~1\FreeFileSync\FreeFileSync.exe\`
 You need to create a file called .sync.ffs_batch in the root of the drive you want to sync with.\
 If you plug in a drive with this file, the service will automatically start the sync process.
 
+### Additional command line arguments
+- `--sync-programm <path to FreeFileSync.exe>`: Set the path to the FreeFileSync.exe
+- `--sync-file <name of sync config>`: Set the name for the sync file
+- `--log-level <log-level eg DEBUG or INFO>`: Set the drive letter for the sync drive
+
 # Faq
 
 ### Why does this exist?
