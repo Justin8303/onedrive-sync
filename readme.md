@@ -20,8 +20,8 @@ Path: <path to main.exe>
 Startup directory: <path to main.exe>
 Arguments: --sync-programm <path to FreeFileSync.exe>
 ```
-FFS Location is probably: C:\PROGRA~1\FreeFileSync\FreeFileSync.exe\
-(note: you need to use PROGRA~1 instead of Program Files, because nssm does not support spaces in the path)
+FFS Location is probably: `C:\PROGRA~1\FreeFileSync\FreeFileSync.exe\`
+(note: you need to use `PROGRA~1` instead of Program Files, because nssm does not support spaces in the path)
 
 6. Click on Install Service
 7. Open the Windows Services and start the OneDrive-Sync service
