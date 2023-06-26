@@ -8,8 +8,6 @@ workspace:
 steps:
   - name: build exe
     image: cdrx/pyinstaller-windows:python3
-    commands:
-      - python --version
 
   - name: upload release
     image: plugins/github-release
