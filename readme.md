@@ -44,3 +44,10 @@ If you have any issues, please create an issue on the [issue page](https://githu
 
 ### How to contribute?
 If you want to contribute, please create a pull request on the [pull request page](https://github.com/Justin8303/onedrive-sync/pulls).
+
+# References
+- [NSSM](https://nssm.cc/)
+- [FreeFileSync](https://freefilesync.org/)
+- [Abdus](https://abdus.dev/posts/python-monitor-usb/)
+
+(I've used the code from Abdus to monitor the USB drives)
